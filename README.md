@@ -97,21 +97,29 @@ StudyLens/ <br>
 # ⚙️ Installation & Setup
 
 1️⃣ Clone the repository <br>
+    
     git clone https://github.com/your-username/studylens.git <br>
     cd studylens<br>
+    
 2️⃣ Backend setup <br>
+
     cd backend<br>
     npm install <br>
     npm run dev <br>
+    
 Create a .env file: <br>
+
     PORT=5000 <br>
     MONGO_URI=your_mongodb_connection <br>
     JWT_SECRET=your_jwt_secret <br>
     GEMINI_API_KEY=your_gemini_api_key <br>
+    
 3️⃣ Frontend setup <br>
+
     cd frontend <br>
     npm install <br>
     npm run dev <br>
+    
 
 # 🌍 Deployment
 
