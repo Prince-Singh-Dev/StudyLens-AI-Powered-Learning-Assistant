@@ -1,6 +1,6 @@
 # 📚 StudyLens — AI-Powered Learning Assistant
 
-StudyLens is a full-stack AI-powered learning assistant that helps students understand, summarize, and interact with their study documents using modern web technologies and generative AI.
+StudyLens is a full-stack AI-powered learning assistant that helps students understand, summarize, and interact with their study documents using modern web technologies and generative AI...
 
 It allows users to upload PDFs, read them inside the app, and use AI to ask questions, generate summaries, flashcards, and quizzes — all from their own documents.
 
