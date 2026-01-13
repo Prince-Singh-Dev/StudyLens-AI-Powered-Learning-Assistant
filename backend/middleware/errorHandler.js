@@ -28,13 +28,18 @@ const errorHandler = (err,req,res,next) => {
     }
 
     //JWT errors
-    if(err.code === 'JsonWebTokenError'){
+    if(err.name === 'JsonWebTokenError'){
         message = 'Invalid Token';
         statusCode = 401;
     }
 
+    if(err.name === 'TokenExpiredError'){
+        message = 'Token expired';
+        statusCode = 401;
+    }
+
     console.error('Error : ',{
-        message = err.message,
+        message: err.message,
         stack : process.env.NODE_ENV === 'development' ? err.stack : undefined
     });
 
