@@ -6,7 +6,7 @@ import {
     getProfile,
     updateProfile,
     changePassword
-} from './controllers/authController.js';
+} from "../controllers/authController.js";
 
 import protect from '../middleware/auth.js';
 
