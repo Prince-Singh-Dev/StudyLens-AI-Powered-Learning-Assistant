@@ -26,6 +26,8 @@ app.use(
         credentials:true,
     })
 );
+console.log(process.env.MONGODB_URI);
+
 
 app.use(express.json());
 app.use(express.urlencoded({extended : true}));
